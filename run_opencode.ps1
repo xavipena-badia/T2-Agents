@@ -10,4 +10,6 @@ Get-Content "keys.env" | ForEach-Object {
     [Environment]::SetEnvironmentVariable($matches[1].Trim(), $matches[2].Trim(), "Process")
   }
 }
-opencode @args
+# --standalone: OpenCode v2 usa per defecte un servei en segon pla que no hereta
+# aquestes variables; amb un servidor privat les claus de keys.env sí que arriben.
+opencode --standalone @args

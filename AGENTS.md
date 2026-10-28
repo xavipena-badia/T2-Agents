@@ -1,0 +1,1 @@
+Create a new folder for every new request inside resultats/<new-folder> with a proper name and place all the code inside.
