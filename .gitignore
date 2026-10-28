@@ -1,0 +1,9 @@
+# Claus: no es pugen mai
+keys.env
+*.env
+!keys.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
