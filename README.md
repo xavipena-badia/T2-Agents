@@ -6,7 +6,7 @@ Projecte base de la pràctica. Enviareu el mateix prompt a tres models i compara
 | --- | --- | --- |
 | `litellm/spark-coder` | IA local del centre (LiteLLM) | Servidor del centre (només des de la xarxa del centre) |
 | `opencode/big-pickle` | OpenCode ZEN | Núvol, gratuït amb límit per hora |
-| `deepseek/deepseek-chat` | DeepSeek | Núvol |
+| `<model-a-triar>` | ? | ? |
 
 ## 1. Configuració (una sola vegada)
 
